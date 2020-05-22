@@ -11,5 +11,6 @@ namespace nianemisArtSite.Services
         Task<IEnumerable<string>> GetImageListAsync(string directory);
 
         Task<byte[]> GetImageAsync(string dir, string name);
+        Task<byte[]> GetImagePreviewAsync(string dir, string name, int number);
     }
 }

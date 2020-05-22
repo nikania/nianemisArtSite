@@ -6076,11 +6076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ART PORTFOLIO SITE\\nianemisArtSite\\nianemisArtSite\\nianemisArtSite.csproj",
+      "projectUniqueName": "F:\\ART_PORTFOLIO_SITE\\nianemisArtSite\\nianemisArtSite\\nianemisArtSite.csproj",
       "projectName": "nianemisArtSite",
-      "projectPath": "F:\\ART PORTFOLIO SITE\\nianemisArtSite\\nianemisArtSite\\nianemisArtSite.csproj",
+      "projectPath": "F:\\ART_PORTFOLIO_SITE\\nianemisArtSite\\nianemisArtSite\\nianemisArtSite.csproj",
       "packagesPath": "C:\\Users\\niane\\.nuget\\packages\\",
-      "outputPath": "F:\\ART PORTFOLIO SITE\\nianemisArtSite\\nianemisArtSite\\obj\\",
+      "outputPath": "F:\\ART_PORTFOLIO_SITE\\nianemisArtSite\\nianemisArtSite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\niane\\AppData\\Roaming\\NuGet\\NuGet.Config",

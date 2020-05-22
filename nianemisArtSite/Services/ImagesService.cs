@@ -40,6 +40,26 @@ namespace nianemisArtSite.Services
             }
         }
 
+        public async Task<byte[]> GetImagePreviewAsync(string dir, string name, int number)
+        {
+
+            switch (dir.ToLower())
+            {
+                case "drawings":
+                    using (var file = File.ReadAllBytesAsync(_configContent.Drawings + "\\"+ number.ToString()+ "\\" + name))
+                    {
+                        return await file;
+                    }
+                case "digital":
+                    using (var file = File.ReadAllBytesAsync(_configContent.Digital + "\\" + number.ToString() + "\\" + name))
+                    {
+                        return await file;
+                    }
+                default:
+                    throw new NotImplementedException();
+            }
+        }
+
         public async Task<IEnumerable<string>> GetImageListAsync(string directory)
         {
             await Task.CompletedTask;
@@ -56,5 +76,7 @@ namespace nianemisArtSite.Services
             }
              
         }
+
+
     }
 }

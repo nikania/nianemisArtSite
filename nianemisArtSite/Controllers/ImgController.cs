@@ -36,5 +36,12 @@ namespace nianemisArtSite.Controllers
 
         }
 
+        [HttpGet("{dir}/{name}/{number}")]
+        public async Task<IActionResult> GetImagePreview(string dir, string name, int number)
+        {
+            var array = await _imageService.GetImagePreviewAsync(dir, name, number);
+            return File(array, "image/jpeg");
+
+        }
     }
 }

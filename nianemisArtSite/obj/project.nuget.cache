@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uKLP+01yB8JNyT4HowoZOp/Wx+KPtoI5waP3nFwJK6ls2D0A7aIQFf0Sl6pHZOzhNnw982Bh116E1c2h3mkdnA==",
+  "dgSpecHash": "bUVw37A638hxQiNDuAupoTZ+zYZr/MhXx5K8Jo/RqD49E9pJXoPyRvfMAEfCQkFlt8JaH7htZIVbB4+VFYGIoQ==",
   "success": true,
-  "projectFilePath": "F:\\ART PORTFOLIO SITE\\nianemisArtSite\\nianemisArtSite\\nianemisArtSite.csproj",
+  "projectFilePath": "F:\\ART_PORTFOLIO_SITE\\nianemisArtSite\\nianemisArtSite\\nianemisArtSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\niane\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\niane\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
